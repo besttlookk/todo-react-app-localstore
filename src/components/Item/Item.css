@@ -1,0 +1,36 @@
+.itemContainer{
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.item{
+    padding: 10px 20px;
+    word-wrap: break-word;
+    width: 75%;
+    max-width: 75%;
+    
+}
+.itemCompleted{
+    background-color: #f4f4f4;
+    
+}
+
+.itemRemain{
+    background-color: rgb(222, 248, 184);
+   
+}
+
+.itemRemain:hover{
+    background-color: #333;
+    color: white;
+}
+
+#completebtn, #trashbtn, #redobtn{
+    cursor: pointer;
+    /* padding: 10px 20px; */
+    width: 100px;
+    font-size: .7rem;
+    
+    
+
+}
