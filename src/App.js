@@ -31,7 +31,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const id = uuidv4()
-    
+    // const formValue
     const {todoList, error} = addToStore(e.target.input.value, id)
     setInput('')
     if(error){
